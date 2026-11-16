@@ -1,0 +1,68 @@
+import '../modeller/urun.dart';
+
+final List<Urun> tumUrunler = [
+  Urun(
+    id: 1,
+    isim: "Dambıl Seti (2x10 kg)",
+    fiyat: 1250,
+    resim: "https://images.unsplash.com/photo-1586401100295-7a8096fd231a?w=600&auto=format&fit=crop&q=80",
+    aciklama: "Kauçuk kaplama altıgen dambıl seti, kaymaz çelik tutma alanı.",
+    kategori: "Ağırlık",
+  ),
+  Urun(
+    id: 2,
+    isim: "5'li Direnç Lastiği Seti",
+    fiyat: 450,
+    resim: "https://images.unsplash.com/photo-1598289431512-b97b0917affc?w=600&auto=format&fit=crop&q=80",
+    aciklama: "Farklı sertlik seviyelerinde 5 adet egzersiz bandı.",
+    kategori: "Fitness",
+  ),
+  Urun(
+    id: 3,
+    isim: "Kaydırmaz Fitness & Yoga Matı",
+    fiyat: 650,
+    resim: "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=600&auto=format&fit=crop&q=80",
+    aciklama: "10 mm kalınlığında kaydırmaz zemin matı, taşıma askılı.",
+    kategori: "Yoga & Pilates",
+  ),
+  Urun(
+    id: 4,
+    isim: "Olimpik Halter Barı (20 kg)",
+    fiyat: 2400,
+    resim: "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=600&auto=format&fit=crop&q=80",
+    aciklama: "220 cm uzunluğunda krom kaplama rulmanlı olimpik bar.",
+    kategori: "Ağırlık",
+  ),
+  Urun(
+    id: 5,
+    isim: "Bilek Destekli Fitness Eldiveni",
+    fiyat: 390,
+    resim: "https://images.unsplash.com/photo-1620188467120-5042ed1eb5da?w=600&auto=format&fit=crop&q=80",
+    aciklama: "Bilek destekli, avuç içi kaymaz fitness eldiveni.",
+    kategori: "Aksesuar",
+  ),
+  Urun(
+    id: 6,
+    isim: "Rulmanlı Hızlı Atlama İpi",
+    fiyat: 180,
+    resim: "https://images.unsplash.com/photo-1544033527-b192daee1f5b?w=600&auto=format&fit=crop&q=80",
+    aciklama: "Ayarlanabilir çelik tel ve rulmanlı hızlı atlama ipi.",
+    kategori: "Kardiyo",
+  ),
+  Urun(
+    id: 7,
+    isim: "Ayarlanabilir Bench Sehpası",
+    fiyat: 3200,
+    resim: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600&auto=format&fit=crop&q=80",
+    aciklama: "7 kademeli eğim ayarıyla ve katlanabilir yapısıyla evde yer kaplamaz.",
+    kategori: "Ekipman",
+  ),
+  Urun(
+    id: 8,
+    isim: "Whey Protein Tozu (2 kg)",
+    fiyat: 1100,
+    resim: "https://images.unsplash.com/photo-1579722821273-0f6c7d44362f?w=600&auto=format&fit=crop&q=80",
+    aciklama: "Her porsiyonda 24g protein ve 5.5g BCAA içeren çikolata aromalı whey protein tozu.",
+    kategori: "Besin Takviyesi",
+  ),
+];
